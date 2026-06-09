@@ -1,8 +1,8 @@
 import pandas as pd
 from .forward import forward_selection
 from .backward import backward_elimination
-from .nn import leave_one_out
-from .load import load_data
+from nn.nn import leave_one_out
+from nn.load import load_data
 
 print("Welcome to the Feature Selection Algorithm.")
 file_choice = input("Type in the name of the file to test: ").strip()

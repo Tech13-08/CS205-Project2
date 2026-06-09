@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from .nn import leave_one_out
+from nn.nn import leave_one_out
 
 def forward_selection(data):
 

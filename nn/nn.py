@@ -1,4 +1,3 @@
-from nn import leave_one_out
 import numpy as np
 import pandas as pd
 
